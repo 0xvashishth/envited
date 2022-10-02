@@ -7,14 +7,15 @@ import "./createevent.css";
 const CreateEvent = (props) => {
     // const [user,setuser] = useState();
     return (
-        <div className="container">
+        <div className="container backColor1">
 
             <div className="row">
-
-                <div className="col-4">
+            <div className="containertop11"></div>
+                <div className="col-12">
                     <div className="EventPagetext"> Create Your Event </div>
                 </div>
             </div>
+            <br/><br/>
             <div className="row">    
                 <div className="col-7">
                 <form>
@@ -31,15 +32,15 @@ const CreateEvent = (props) => {
                 <input type="text" name="name" class="question" id="description" required autocomplete="off" />
                 <label for="description"><span>✏️ Description (optional)</span></label>
                 </form><br/><br/>
-                <a href="/event" className="buttonright">
-                                <div className="buttoncontent">🎉 Create my event</div>
+                <a href="/event" className="buttonright1">
+                                <div className="buttoncontent1">🎉 Create my event</div>
                             </a>
                 </div>
                 <div className="col-5">
                 </div>
 
             </div>
-            
+            <div className="containertop11"></div>
         </div>
     )
 };
