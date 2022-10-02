@@ -9,7 +9,9 @@
 .containertop11{
     height: 20px;
 }
-
+.backColor1{
+    
+}
 input,
 span,
 label {
@@ -124,4 +126,11 @@ input.question + label > span {
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.sideimage{
+    width: 500px;
+    height: 500px;
+    /* margin-left: calc(50% - 500px/2 + 206px); */
+    margin-top: 100px;
 }

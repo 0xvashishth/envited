@@ -36,7 +36,8 @@ const CreateEvent = (props) => {
                                 <div className="buttoncontent1">🎉 Create my event</div>
                             </a>
                 </div>
-                <div className="col-5">
+                <div className="col-5 d-md-block d-none">
+                    <img  className="sideimage" src="https://www.envited.io/_ipx/w_1920,q_75/https%3A%2F%2Fd23sdgsd7v5sge.cloudfront.net%2FParty.png?url=https%3A%2F%2Fd23sdgsd7v5sge.cloudfront.net%2FParty.png&w=1920&q=75"/>
                 </div>
 
             </div>
