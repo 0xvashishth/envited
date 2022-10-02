@@ -9,7 +9,7 @@ const CreateEvent = (props) => {
     return (
         <div>
             <h1>
-                Hello
+                Create Event Page
             </h1>
         </div>
     )
