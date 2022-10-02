@@ -31,7 +31,7 @@ const CreateEvent = (props) => {
                 <input type="text" name="name" class="question" id="description" required autocomplete="off" />
                 <label for="description"><span>✏️ Description (optional)</span></label>
                 </form><br/><br/>
-                <a href="/create" className="buttonright">
+                <a href="/event" className="buttonright">
                                 <div className="buttoncontent">🎉 Create my event</div>
                             </a>
                 </div>
