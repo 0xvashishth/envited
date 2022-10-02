@@ -108,7 +108,7 @@ flex-grow: 0;
     /* position: absolute; */
     width: 320px;
     height: 55px;
-    /* left: calc(50% - 320px/2 + 436px); top: 622px; */
+    left: calc(50% - 320px/2 + 436px); top: 622px;
 
     background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
     border-radius: 10px;

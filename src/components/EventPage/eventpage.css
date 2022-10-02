@@ -1,4 +1,4 @@
-.text1{
+.text11{
     position: absolute;
     width: 333px;
     height: 40px;
@@ -15,7 +15,7 @@
 
 color: #240D57;
 }
-.text2{
+.text22{
     position: absolute;
     width: 155px;
     height: 20px;
@@ -214,10 +214,10 @@ color: #240D57;
 
 
 @media screen and (max-width: 992px) {
-    .text1 {
+    .text11 {
         top: 70px;
     }
-    .text2{
+    .text22{
         top: 120px;
     }
 
