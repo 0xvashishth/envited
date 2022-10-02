@@ -25,7 +25,10 @@ const CreateEvent = (props) => {
                 </div>
 
                 <div className="col-5">
-
+                <a href="/event" className="buttonright">
+                                <div className="buttoncontent">🎉 Submit event</div>
+                            </a>
+                            
                 </div>
 
             </div>
