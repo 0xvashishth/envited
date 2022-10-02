@@ -1,0 +1,233 @@
+.text1{
+    position: absolute;
+    width: 333px;
+    height: 40px;
+    /* left: 240px; */
+    top: 194px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+
+color: #240D57;
+}
+.text2{
+    position: absolute;
+    width: 155px;
+    height: 20px;
+    top: 248px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #828282;
+}
+.marginecontainer{
+    height: 102.5px;
+}
+.marginecontainer1{
+    height: 40px;
+}
+.lefticonbar{
+    /* Auto layout */
+    top: 250px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 1px;
+
+    width: 56px;
+    height: 56px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.rightticonbar{
+    /* Auto layout */
+    top: 245px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 1px;
+
+    width: 56px;
+    height: 56px;
+
+}
+.datetext{
+    /* top: 250px; */
+    margin-top: 250px;
+    left: 50px;
+    /* width: 205x; */
+    /* height: 21px; */
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #240D57;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.datebelowtext{
+    /* width: 253px;
+    height: 21px; */
+    left: 50px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #4F4F4F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.lefticonbar1{
+    /* Auto layout */
+    /* top: 250px; */
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 1px;
+
+    width: 56px;
+    height: 56px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.rightticonbar1{
+    /* Auto layout */
+    /* top: 245px; */
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 1px;
+
+    width: 56px;
+    height: 56px;
+
+}
+.datetext1{
+    /* top: 250px; */
+    /* margin-top: 250px; */
+    left: 50px;
+    /* width: 205x; */
+    /* height: 21px; */
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #240D57;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.datebelowtext1{
+    /* width: 253px;
+    height: 21px; */
+    left: 50px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #4F4F4F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.imgleft{
+    width: 500px;
+    height: 500px;
+    margin-left: calc(50% - 500px/2 + 206px);
+    margin-top: 184px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .text1 {
+        top: 70px;
+    }
+    .text2{
+        top: 120px;
+    }
+
+    .lefticonbar, .rightticonbar{
+        top: 100px;
+    }
+    .datetext{
+        margin-top: 100px;
+    }
+    .buttonright{
+        margin-left: 175px;
+    }
+}
